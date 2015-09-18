@@ -1,0 +1,27 @@
+{
+  "name": "tharman4pm.com",
+  "version": "0.0.0",
+  "description": "Tharman for PM",
+  "main": "index.js",
+  "scripts": {
+    "generatedocs": "cd src && hugo version && hugo",
+    "autodocs": "node ./node_modules/autodocs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bguiz/tharman4pm.com.git"
+  },
+  "keywords": [
+    "tharman",
+    "pm"
+  ],
+  "author": "bguiz",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/bguiz/tharman4pm.com/issues"
+  },
+  "homepage": "https://github.com/bguiz/tharman4pm.com#readme",
+  "devDependencies": {
+    "autodocs": "^0.7.0-rc1"
+  }
+}

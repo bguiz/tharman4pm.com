@@ -1,0 +1,19 @@
+language: go
+go:
+- '1.3'
+install:
+- go get -v github.com/spf13/hugo
+- npm i
+script:
+- npm run autodocs
+env:
+  global:
+  - secure: m1a2zcsDPNKlYi24nrvS1/tNtdREYqvIvmNvDlSOptD8l3pBiIDYcPQSDZGNvcrCGDeqqta0dvGlhtZj70yYf9rX9qYYfj8jQN30qjw2kRIdrd1e9ykiiJHVNqsKxxaekDl5Wqr+uUP7kiUc91irN0EMaLSJ63t7Yu9U5bIhx0dQ0KfSB9qQuYNb9GH9l2z5tsciqIKStq5EvX+63SjJw1VLfzximRtcJJSS9nsw2ffIgVORNM53THpdgXEXUL4fLL0Ufce6wMK+r7ctEm64Cd36+i63n2GfXVFtDrGHBeA49crvCb6Dz0QEA3On3pI/K62ofF1ZnPvWt8SEeROOS0q+3kvHhPwntHXW5CUgcYBhaXKzme1iurLVOrVz5cKJk+yA77dE+AUkg9kl1Vq6Mg+worilxLv2W1lcpvobd3NLrzIuMX18/TZC/SnT2WxoMSTwmV+rvNmabcHTCpAcI9kWEOJnXh6Wys04xupLwjeIVTOMkBjnBqnulLmXQxbFXxHF2F1gAnTPm/eu/3zeXPgb5RZYLTQXyS1aJIVXhzokS8Bw3tPmrHwLq+ky0iJybv5PeZjSF1pNv9oGyp69Jrqc7JgmJfGRsnxaO3DPLW8bm4vFTGK/LdkGE1vi/a5niustO2+FuLSMYvpAYARRtGPGDClr+oTMdpudcvFRFzg=
+  - DOCUMENT_BRANCH: ${TRAVIS_BRANCH}
+  - DOCUMENT_GENERATED_FOLDER: 'src/public'
+  - DOCUMENT_PUBLISH_FOLDER: ''
+  - FLAG_ALL_PAGE: 'false'
+  - FLAG_LATEST_PAGE: 'false'
+  - FLAG_CLEAN_DOCUMENT: 'true'
+  - FLAG_COPY_ASSETS: 'true'
+  - DOCUMENT_ASSETS: 'CNAME'
