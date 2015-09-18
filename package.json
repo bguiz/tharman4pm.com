@@ -4,7 +4,8 @@
   "description": "Tharman for PM",
   "main": "index.js",
   "scripts": {
-    "generatedocs": "cd src && hugo version && hugo",
+    "installtheme": "mkdir -p ./src/themes && cd ./src/themes && git clone https://github.com/vjeantet/hugo-theme-casper.git",
+    "generatedocs": "cd ./src && hugo version && hugo",
     "autodocs": "node ./node_modules/autodocs"
   },
   "repository": {

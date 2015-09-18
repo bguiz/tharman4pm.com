@@ -5,6 +5,7 @@ install:
 - npm i
 - go get -v github.com/spf13/hugo
 script:
+- npm run installtheme
 - npm run autodocs
 env:
   global:
