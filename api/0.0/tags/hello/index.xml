@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hello on Tharman for PM</title>
+    <link>http://tharman4pm.com/tags/hello/</link>
+    <description>Recent content in Hello on Tharman for PM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-SG</language>
+    <lastBuildDate>Fri, 18 Sep 2015 20:16:45 +0800</lastBuildDate>
+    <atom:link href="http://tharman4pm.com/tags/hello/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hello</title>
+      <link>http://tharman4pm.com/post/hello/</link>
+      <pubDate>Fri, 18 Sep 2015 20:16:45 +0800</pubDate>
+      
+      <guid>http://tharman4pm.com/post/hello/</guid>
+      <description>&lt;p&gt;Hello!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
