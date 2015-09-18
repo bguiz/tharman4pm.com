@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/bguiz/tharman4pm.com#readme",
   "devDependencies": {
-    "autodocs": "^0.7.0-rc1"
+    "autodocs": "feature/root-publish"
   }
 }
