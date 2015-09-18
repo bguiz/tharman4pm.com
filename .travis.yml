@@ -2,8 +2,8 @@ language: go
 go:
 - '1.3'
 install:
-- go get -v github.com/spf13/hugo
 - npm i
+- go get -v github.com/spf13/hugo
 script:
 - npm run autodocs
 env:
