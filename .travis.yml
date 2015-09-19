@@ -1,0 +1,21 @@
+language: go
+go:
+- '1.3'
+install:
+- npm i
+script:
+- npm run downloadssg
+- npm run installssg
+- npm run installtheme
+- npm run autodocs
+env:
+  global:
+  - secure: NpnUuo/7IewD1v+qnL2xbkNhXIu7uWo4wG40eb+nNMRbUUxbAgP5Znqeu8DhvUXyr0lhvXWtTWfHNX812WC7je1gZu9v6J4hf8aTLHgpWuhzIbtqwAvtT0TpNNhcD5k6sxu1Gz/Wz3TiZ2hiSer347avyB8a12UJffM6QXzSCFk2UnMYv2vsK3ah6oM1rmeVizA7bZyJ8zPfzdpmSFQPphloj2rkVmxohW7cX5c3ueyxrwUNu0kwmnDkar0ogIuTCn74nD9FtUkeFmDhT2eZyW7Boa4YOB09PAVo5b662yDCGvNoq3ejmDcUE5Im8mNnOg+YkgHlSsn6y257azRFeCI5qwwtz43bFPkDIBYZnE8p446ZW9/c/Z3k8if5GmKs0xHekY12TxKLvUN/+zuqC9sHc6UlUl/eymzWspHcK9mSrMSW85eiIi8S3rqG3A6a3qx4LV476wpL+81Wg3aoQQV5BDJyvEQrikAWdPvD8HNbBe9ch0um3IKdNxTIxhYHZ75rPGPr23RI6UA4VMVIdIvMEHsKxbXjUkRD6ztvoaA/1GIzho4mesp0dg6+ycyMLgkMr54+azqX0iot2U1ptRX/V98GQZJvlftFwEIHOPqJS0pj1wknLo8aZYLYXFuPD2MRlciA2IuOF51nJ8uwW5lh2Ef4dB5+s1CYkECQ1oU=
+  - DOCUMENT_BRANCH: ${TRAVIS_BRANCH}
+  - DOCUMENT_GENERATED_FOLDER: 'src/public'
+  - FLAG_PUBLISH_IN_ROOT: 'true'
+  - FLAG_ALL_PAGE: 'false'
+  - FLAG_LATEST_PAGE: 'false'
+  - FLAG_CLEAN_DOCUMENT: 'true'
+  - FLAG_COPY_ASSETS: 'true'
+  - DOCUMENT_ASSETS: 'CNAME'
