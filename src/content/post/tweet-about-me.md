@@ -15,6 +15,8 @@ title = "Tweet about me"
 
 We want #TharmanForPM - [Tweet this!](https://twitter.com/share?text=We want %23TharmanForPM&url=http%3a%2f%2ftharman4pm.com)
 
+<!--more-->
+
 <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/hashtag/TharmanForPM" data-widget-id="645071123357433856">
   #TharmanForPM Tweets
 </a>
