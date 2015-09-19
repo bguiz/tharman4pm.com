@@ -3,6 +3,9 @@ languageCode = "en-SG"
 title = "Tharman for PM"
 theme = "casper"
 
+[permalinks]
+  post = "/:year/:month/:slug/"
+
 [params]
   description = "Tharman for Prime Minister"
   cover = "images/sg-flag-1280.png"
