@@ -4,8 +4,10 @@
   "description": "Tharman for PM",
   "main": "index.js",
   "scripts": {
+    "downloadssg": "wget https://github.com/spf13/hugo/releases/download/v0.14/hugo_0.14_linux_amd64.tar.gz",
+    "installssg": "tar -xvf hugo_0.14_linux_amd64.tar.gz && cd hugo_0.14_linux_amd64 && ln -s ./hugo_0.14_linux_amd64 hugo && hugo version",
     "installtheme": "mkdir -p ./src/themes && cd ./src/themes && git clone https://github.com/vjeantet/hugo-theme-casper.git casper",
-    "generatedocs": "cd ./src && hugo version && hugo",
+    "generatedocs": "export PATH=${PWD}/hugo_0.14_linux_amd64:${PATH} && cd ./src && hugo version && hugo",
     "autodocs": "node ./node_modules/autodocs"
   },
   "repository": {
@@ -23,6 +25,6 @@
   },
   "homepage": "https://github.com/bguiz/tharman4pm.com#readme",
   "devDependencies": {
-    "autodocs": "git://github.com/bguiz/autodocs.git#feature/root-publish"
+    "autodocs": "^0.7.1"
   }
 }
