@@ -8,6 +8,7 @@ menu = ""
 share = true
 slug = "post-title"
 tags = ["data", "policy"]
+categories = ["descriptions"]
 title = "Data at his Fingertips"
 
 +++

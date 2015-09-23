@@ -8,6 +8,7 @@ menu = ""
 share = true
 slug = "tweet-about-me"
 tags = ["twitter"]
+categories = ["descriptions"]
 title = "Tweet about me"
 
 +++
